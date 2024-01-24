@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2&family=Manrope:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Manrope', sans-serif;
+    text-decoration: none;
+  }
+
+  body, html {
+    height: 100%;
+  }
+  a { 
+    color: white; 
+  } 
+
+  a:hover{
+    color: #73AD21;
+  }
+ 
+  .bgimage {
+    /* The image used */
+    background-image: url("https://res-console.cloudinary.com/dzm0xyxcv/media_explorer_thumbnails/f0c305c84e513700683b153f7c343d7e/detailed");
+  
+  position: relative;
+    /* Full height */
+    height: 95%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+    header{
+    display: flex;
+    justify-content:space-between;
+  
+    /* align-items: center; */
+    color: beige;
+    font-weight: 500;
+    padding: 0rem 2rem;
+    /* position: relative; */
+    top:0; 
+  }
+ 
+  .content {
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .login >a {
+    /* float: right; */
+    color: white;
+    font-size: 1em;
+    font-weight: 900;
+  }
+
+  .login >a:hover{
+    opacity: 0.5;
+    background-color: #808080;
+    width: 30px;
+    height: 15px;
+    border-radius: 5px;
+  }
+
+.footer1{
+  height: 6em;
+  width: 100%;
+  background: green;
+}
+
+.ftext1{
+  color: white;
+  font-size: 15px;
+text-align: center;
+padding: 0.5em;
+}
+
+.disney{
+  display: flex;
+  justify-content: center;
+  /* justify-content: space-between; */
+  /* margin-top: 2rem; */
+}
+
+.box{
+  margin: 40px;
+width: 300px;
+   height: 150px;
+   padding: 20px;
+   /* text-align: center; */
+/* align-items: center; */
+    /* background-color:burlywood; */
+    font-size: 5px;
+   line-height: 60px;
+}
+
+.btn{
+  background-color: rgb(131, 251, 137);
+  border-radius: 5px;
+  width: 250px;
+  height: 2.5em;
+  margin-top: 80px;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.btn:hover{
+  opacity: 0.6;
+}
+
+.ftext2 {
+  font-family: "Trebuchet MS", Helvetica, Arial, sans-serif;
+  text-align: center;
+  /* color: white !important; */
+  /* z-index: 0; */
+  /* position: relative; */
+  font-size: 0.7em;
+  margin-top: 60px;
+}
+
+.ftext3 {
+  margin: auto;
+  width: 15%;
+  color: white;
+  /* border: 3px solid  #73AD21; Shade of Green*/
+  border: 3px solid white;
+  padding: 10px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.ftext3:hover{
+  opacity: 0.5;
+  color: black;
+  background-color: grey;
+  border-radius: 5px;
+}
+
+.ha {
+  text-align: center;
+  color: white;
+  /* z-index: 3; */
+  /* position: relative; */
+  font-size: 1em;
+  margin-top: 3em;
+   }
+
+  .img1 {
+    /* z-index: 3; */
+    position: absolute;
+    margin-top:1em;
+    margin-left: 50%;
+    height: 3em;
+    width: 3em;
+    background-image: url("https://res-console.cloudinary.com/dzm0xyxcv/media_explorer_thumbnails/5f685f34e3f5c4e0c61ecd7b30170838/detailed");
+    }
+
+    .bbox{
+      margin-top: 80px;
+      display: inline-block;
+      width: 260px;
+      height: 200px;
+      padding: 5px;
+      /* margin: 40px; */
+      /* border: 1px solid blue; */
+      background-color: rgb(15, 15, 12);
+    }
+
+    .txtcolor{
+      color: rgb(106, 212, 106);
+      font-size: 10px;
+      font-weight:600;
+      margin: 5px;
+    }
+
+    .pricetag{
+      color: white;
+      font-size: 20px;
+      text-align: center;
+      font-weight:600;
+      }
+
+    .disneybox{
+      width: 50px;
+      height: 50px;
+    }
+
+    .hulu{
+      color: rgb(106, 212, 106);
+      font-size: 20px;
+      font-weight:600;
+    }
+
+    .section2{
+      justify-content: center;
+      display: flex;
+      width: 100%;
+      height: 150vh;
+      background-color: black;
+    }
+   
+    .imgcontainer{
+      position: relative;
+      margin: auto;
+      margin-top: 280px;
+      /* margin-left: 10px; */
+    }
+
+    .imgcontainer img{
+      width: 350px;
+      height: 500px;      
+      border-radius: 15px;
+    }
+
+    .imgcontainer img:hover{
+      cursor: grab;
+     /* margin: 0px;  */
+      border: 5px solid #808080;
+      opacity: 10;
+      border-radius: 15px;
+      /* transform: scale(1.1); */
+  transform-origin: center;
+ opacity: 0.5;
+    }
+
+    /* Top right text */
+    .top_right1 {
+      position: absolute;
+      top: 20px;
+      left: 5px;
+      color: white;
+      font-size: 1em;
+      font-weight: 600;
+    }
+.top_right2 {
+  position: absolute;
+  top: 50px;
+  left: 5px;
+  color: white;
+  font-size: 1.5em;
+  font-weight:900;
+}
+
+.txtcontainer{
+   position: absolute;
+   margin-top: 80px;
+}
+
+.txtcont1{
+  color: #73AD21;
+  font-size: 1.2em;
+  font-weight: 800;
+  text-align: center;
+
+}
+
+.txtcont2{
+  color: white;
+  font-size: 3em;
+  font-weight: 900;
+  text-align: center;
+}
+
+.txtcont3{
+  color: white;
+  font-size: 20px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.txtcontainer2{
+   position: absolute;
+   margin-top: 200px;
+}
+
+.txtcont4{
+  /* margin-top: 850px; */
+  color: #73AD21;
+  font-size: 15px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.txtcontainerX{
+  position: absolute;
+  margin-top: 850px;
+}
+
+.btnb{
+  position: relative;
+  margin: 40%;
+    background-color: rgb(131, 251, 137);
+    border-radius: 5px;
+    width: 250px;
+    height: 2.5em;
+    margin-top: 30px;
+    font-size: 1.1em;
+    font-weight: 900;
+    align-items: center;
+  }
+
+  .btnb:hover{
+    opacity: 0.5;
+  }
+
+  .txtcontainerX2{
+    position: absolute;
+    margin-top: 1100px;
+  }
+
+  .txtcont5{
+    /* margin-top: 850px; */
+    color: #808080;
+    font-size: 10px;
+    font-weight: 900;
+    text-align: center;
+  }
+
+  .txtcontainerX3{
+    position: absolute;
+    margin-top: 1140px;
+  }
+
+  .hb {
+   margin: auto;
+    text-align: center;
+    color: white;
+    font-size: 1em;
+    /* margin-top: 3em; */
+     }
